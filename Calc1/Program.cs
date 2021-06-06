@@ -15,17 +15,17 @@ namespace Calc1
         }
         public double substract(double a, double b)
         {
-            double c = a + b;
+            double c = a - b;
             return c;
         }
         public double multiplication(double a, double b)
         {
-            double c = a + b;
+            double c = a * b;
             return c;
         }
         public double division(double a, double b)
         {
-            double c = a + b;
+            double c = a / b;
             return c;
         }
 
