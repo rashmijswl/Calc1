@@ -8,12 +8,13 @@ namespace Calc1
 {
     public class Program
     {
+        //change comment
         public double addition(double a, double b)
         {
             double c = a + b;
             return c;
         }
-        public double substract(double a, double b)
+        public double subtraction(double a, double b)
         {
             double c = a - b;
             return c;
@@ -71,7 +72,7 @@ namespace Calc1
                         break;
 
                     case "2":
-                        result = p1.substract(first_number, second_number); ;
+                        result = p1.subtraction(first_number, second_number); ;
                         valid_operation = 0;
                         Console.WriteLine("Output is {0}", result);
                         break;
