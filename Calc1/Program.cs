@@ -26,7 +26,7 @@ namespace Calc1
         }
         public double division(double a, double b)
         {
-            double c = a / b;
+            double c = a * b;
             return c;
         }
 
